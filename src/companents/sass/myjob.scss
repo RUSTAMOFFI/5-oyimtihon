@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .cont{
+    margin: auto;
+  }
+  .my{
+    margin: auto;
+margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    gap: 10px;
+  }
+  h1{
+    margin-bottom: 20px;
+  }
+  p{
+    line-height: 30px;
+  }
+//   label{
+// line-height: 35px;
+//   }
+  textarea{
+    height: 120px;
+    padding: 5px;
+  }
+  .hi{
+    font-size: 3rem;
+  }

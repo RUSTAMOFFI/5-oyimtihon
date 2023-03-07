@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.cont{
+  margin: auto;
+  margin-top: 70px;
+  width: 73%;
+}
+.api {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  h1{
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+ .box{
+  display: flex;
+  width: 100%;
+  border: 1px solid grey;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ }
+ .btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  #blue{
+    background-color: blue;
+  }
+  #grey{
+    background-color: grey;
+    border: none;
+  }
+  #green{
+    background-color: green;
+  }
+  #red{
+    background-color: red;
+  }
+  .plus{
+    display: flex;
+    flex-direction: column;
+    button{
+      width: 200px;
+    }
+  }
+}

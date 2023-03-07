@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.contar {
+  margin: auto;
+}
+.ss {
+  margin: auto;
+  width: 1400px;
+  margin-top: 50px;
+}
+.work {
+  margin: auto;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#inps {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inpss {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  label {
+    line-height: 35px;
+  }
+  p {
+    color: grey;
+    line-height: 25px;
+  }
+}
+input {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+}
+#lb {
+  margin-top: 70px;
+}
+.aab {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  p {
+    color: grey;
+  }
+}
+#Bio {
+  width: 73vw;
+  height: 150px;
+}
+.cr {
+  width: 73vw;
+}
+
+@media (max-width: 1420px) {
+  .contar {
+    width: 1415px;
+    background-color: aqua;
+  }
+  #inps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Bio {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .contar {
+    margin: auto;
+    width: 750px;
+    background-color: rgb(0, 255, 26);
+  }
+  #inps {
+    margin: 0;
+    width: 100%;
+  }
+  #Bio {
+    margin: 0;
+  }
+}

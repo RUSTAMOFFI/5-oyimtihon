@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.mirage {
+  width: 73%;
+  margin: auto;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.eesp {
+  display: flex;
+  input {
+    display: flex;
+    width: 48%;
+  }
+  .dir {
+    background-color: rgb(189, 184, 184);
+    padding: 10px;
+  }
+}
+.sss {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#bos {
+  line-height: 30px;
+}

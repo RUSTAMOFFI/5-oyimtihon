@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  #inpst{
+    width: 100%;
+    display: flex;
+    // background-color: red;
+    flex-wrap: wrap;
+     justify-content: space-between;
+  }  .inps{
+    width: 100%;
+    input{
+    width: 100%;
+
+    }
+.crr{
+    margin-top: 60px;
+
+    }
+  }
+  .crr{
+    width: 100%;
+    margin-top: 20px;
+
+  }

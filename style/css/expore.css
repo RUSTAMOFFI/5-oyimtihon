@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: auto;
+}
+
+.sect {
+  margin: auto;
+  margin-top: 50px;
+  width: 1400px;
+  height: 100vh;
+}
+.sect h1 {
+  font-size: 3rem;
+}
+.sect p {
+  text-align: start;
+  color: black;
+  line-height: 30px;
+}
+
+button:hover {
+  background-color: rgb(178, 6, 6);
+}/*# sourceMappingURL=expore.css.map */
